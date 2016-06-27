@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Electron Tutorial One</title>
+    <title>Web Page As Desktop App with Electron</title>
+
+		<!-- Insert this line above script imports  -->
+		<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+
+    <!-- load jquery -->
+    <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+
+    <!-- load scripts -->
+
+
+    <script type="text/javascript" src="js/load.js"></script>
+
+		<!-- Insert this line after script imports -->
+		<script>if (window.module) module = window.module;</script>
+
   </head>
-  <body style="overflow: hidden">
-    <webview id="gpm-player" src="https://play.google.com/music/" style="height:100%;width:100%;position:absolute;"></webview>
-  </body>
+  <body style="overflow: hidden"><b>Loading...</b></body>
 </html>
+<!--
+
+vim: ts=2
+
+-->
