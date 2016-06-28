@@ -1,4 +1,6 @@
-# Electron Web App 
+# Electron Web App  
+
+**Version 0.1.0**
 
 Run a web app or page on the desktop using Electron.
 
@@ -13,13 +15,21 @@ The default web page is Google Play Music
 
 On Windows, if you have electron installed in your path, you can run
 
-```run-app.vbs```
+```
+run-app.vbs
+```
 
-Or just run ```electron.exe .\index.html```
+Or just run 
+
+```
+electron.exe .\index.html
+```
 
 If it is not in the path, you can use:
 
+```
 [path_to]\electron.exe [path_to_this_dir]\index.html
+```
 
 You can also create a shortcut to run that command for you.
 
