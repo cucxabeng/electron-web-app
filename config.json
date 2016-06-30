@@ -1,4 +1,6 @@
 {
   "page_title" : "Google Search",
-  "web_url" : "http://google.com/"
+  "web_url"    : "http://google.com/",
+  "width"      : 800, 
+  "height"     : 500
 }
